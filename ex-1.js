@@ -1,5 +1,6 @@
 function addStrings(num1, num2) {
-  return Number(num1) + Number(num2);
+  let result = Number(num1) + Number(num2);
+  return `${result}`;
 }
 
 let result1 = addStrings("11", "123");
